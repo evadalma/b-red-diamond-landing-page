@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B-RED DIAMOND | Esencia de Lujo y Poder</title>
+
+    <!-- 1. Fuentes de Google: Cinzel (Títulos), Mea Culpa (Letras Arte), Libre Baskerville (Slogan), Nunito (Cuerpo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Mea+Culpa&family=Nunito:wght@200;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- 2. Enlace a tu CSS (El que te pasé en el paso anterior) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER: Siempre visible y fijo arriba -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#welcome-section" class="logo">
+                <span class="main-letter">B-</span><span class="name-perfume">RED DIAMOND</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="#welcome-section">Inicio</a></li>
+                    <li><a href="#product-section">Producto</a></li>
+                    <li><a href="#presentation-section">Galería</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- EL TELÓN: Todo el contenido que sube al hacer scroll -->
+    <div class="page-content">
+        <main>
+
+            <!-- SECTION 1: HERO (Imagen 100% Pantalla) -->
+            <section id="welcome-section" class="hero">
+                <img src="./images/perfume-central-image.png" alt="Esencia B-Red Diamond" class="hero-img">
+            </section>
+
+            <!-- SECTION 2: PRODUCTO (Limpieza y Elegancia) -->
+            <section id="product-section" class="product-section">
+                <div class="container">
+                    <h2 class="section-title">Nuestra Creación</h2>
+                    <div class="product-grid">
+                        <div class="product-media">
+                            <img src="./images/perfume-bottle2.png" alt="Botella B-Red Diamond 50ml"
+                                class="img-product">
+                        </div>
+                        <div class="product-text">
+                            <p class="slogan-text">
+                                <span class="bold-red">Be</span> You,<br>
+                                <span class="bold-red">Be</span> bold.<br>
+                                <span class="small-text">Just</span> <span class="bold-red">Be</span> you.<br>
+                                <span class="small-text">Dare to</span> <span class="bold-red">Be</span> you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 3: GALERÍA SHOWROOM (Imágenes cuidadas sin recortes) -->
+            <section id="presentation-section" class="showroom-section">
+                <div class="showroom-grid">
+                    <div class="showroom-item">
+                        <img src="./images/shelves/exhibidor-principal.jpg" alt="Exhibidor Principal de Lujo">
+                    </div>
+                    <div class="showroom-item">
+                        <img src="./images/shelves/exhibidor-piedra-gran-diamante-nocturno.jpg"
+                            alt="Exhibidor Edición Nocturna">
+                    </div>
+                </div>
+
+                <!-- BLOQUE DE INFORMACIÓN (Debajo de la galería) -->
+                <div class="showroom-info">
+                    <div class="container grid-3">
+                        <article class="info-block">
+                            <h3>Diseño</h3>
+                            <p>Sofisticación que transmite lujo desde el primer vistazo.</p>
+                        </article>
+                        <article class="info-block">
+                            <h3>Inspiración</h3>
+                            <p>El perfume y su exhibidor combinan materiales y texturas naturales.</p>
+                        </article>
+                        <article class="info-block">
+                            <h3>Contraste</h3>
+                            <p>Piedra rústica y cristal pulido, evocando el origen del diamante.</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div> <!-- FIN DEL TELÓN -->
+
+    <!-- CAPA INFERIOR: El Footer que se revela (Sticky Reveal) -->
+    <footer class="footer-reveal">
+        <div class="footer-background">
+            <img src="./images/fondo-cueva.png" alt="Fondo Cueva Origen" class="cave-img">
+            <div class="footer-content">
+                <h2 class="footer-logo">B-RED DIAMOND</h2>
+                <p class="footer-rights">© EvaDA 2025 TODOS LOS DERECHOS RESERVADOS</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
