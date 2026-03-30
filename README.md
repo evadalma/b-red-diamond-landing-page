@@ -7,7 +7,7 @@ This project focuses on clean UI design, modern layout techniques and subtle ani
 
 ## 🚀 Live Demo
 
-👉https://b-red-diamond-landing-page.netlify.app/
+👉https://b-red-diamond-landing-page.netlify.app
 
 ---
 
