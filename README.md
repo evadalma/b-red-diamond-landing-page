@@ -1,56 +1,56 @@
-# 💎 B-RED DIAMOND Landing Page
+# Perfume Landing Page (Early Version)
 
-Responsive landing page for a luxury perfume brand, built with HTML and CSS.
-This project focuses on clean UI design, modern layout techniques and subtle animations to create a premium visual experience.
+This project is an early version of a landing page for a perfume brand, created as part of my frontend development learning process.
+
+It focuses on practicing layout structure, responsive design and basic UI composition using HTML and CSS.
 
 ---
 
 ## 🚀 Live Demo
 
-👉https://b-red-diamond-landing-page.netlify.app
+👉 https://tu-link-viejo.netlify.app
 
 ---
 
 ## 🛠️ Technologies Used
 
-* HTML5
-* CSS3
-* Flexbox
-* CSS Grid
-* Responsive Design
+- HTML5
+- CSS3
+- Flexbox
+- Responsive Design
 
 ---
 
-## 🎨 Features
+## 🎯 Features
 
-* Fully responsive design
-* Fixed header navigation
-* Hero section with subtle animation
-* Product showcase section
-* Image gallery layout
-* Footer reveal effect
-* Clean and modern UI
-
----
-
-## 📁 Project Structure
-
-```bash
-├── index.html
-├── styles.css
-├── images/
-```
+- Responsive layout
+- Basic navigation structure
+- Hero section
+- Product showcase
+- Simple visual hierarchy
 
 ---
 
 ## 📌 Purpose
 
-This project was created as part of my frontend development learning journey, with the goal of building visually appealing and responsive web interfaces.
+This project represents an initial step in my learning journey as a frontend developer, helping me understand:
+
+- layout building  
+- responsive behavior  
+- basic styling techniques  
+
+---
+
+## 📁 Project Structure
+├── index.html
+├── styles.css
+├── images/
+
 
 ---
 
 ## 👩‍💻 Author
 
-EvaDAlma
+EvaDAlma  
 Frontend Developer in progress 🚀
 
